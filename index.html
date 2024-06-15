@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="guess2.css">
+</head>
+<body>
+
+    <div class="control1">
+        <div class="control2">
+            <div class="control3">
+                <div class="control4">
+                    <p class="p1">Please Guess a Number between <span class="span2">1</span> to <span class="span2">100</span>.</p>
+                    <p  class="p2">You have <span class="span1">5</span> chances to guess.</p>
+                    <div class="control44">
+                        <p class="p3">Your remaining guess is:</p>
+                        <p class="p33">5</p>
+                    </div>
+                </div>
+                <div class="control5">
+                    <input type="text" maxlength="3" class="input">
+                    <button class="submit">Submit</button>
+                </div>
+                
+                <div class="control6">
+                    <p class="p4"></p>
+                    <p class="p5">Your guess was: <span class="span3"></span></p>
+                    <p class="p6"></p>
+                </div>
+                 <!-- for the gameover popup -->
+                <div class="control7">
+                   <div class="control71">
+                        <p class="p8">Game Over!!!!!</p>
+                        <p class="p9"></p>
+                        <p class="p10">Your guesses was: </p>
+                        <button onclick="lose()">Try Again</button>
+                   </div>
+                </div>
+                  <!-- for the gameover popup ends -->
+
+                <!-- for the win popup -->
+                <div class="control8">
+                    <div class="control81">
+                         <p class="p11">Congradulation!!!!!</p>
+                         <p class="p12"></p>
+                         <p class="p13">Your guesses was: </p>
+                         <button onclick="win()">Play Again</button>
+                    </div>
+                 </div>
+                <!-- for the win popup -->
+
+                 <!-- for the error popup -->
+                 <div class="control9">
+                    <p class="p20">Please enter a value from 1 to 100</p>
+                </div>
+                 <!-- for the error popup ends -->
+            </div>
+            <div class="control10"></div>
+        </div>
+    </div>
+    
+
+
+
+    <script src="guess2.js"></script>
+</body>
+</html>
