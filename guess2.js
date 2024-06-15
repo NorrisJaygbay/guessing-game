@@ -50,6 +50,7 @@ submit.addEventListener('click', (e)=>{
         p13.textContent += inputfield + (", ");
         control6.classList.add('control66');
         control8.classList.toggle('control88');
+        winaudio.play();
 
     }else if(guess == 4){
         guess++;
